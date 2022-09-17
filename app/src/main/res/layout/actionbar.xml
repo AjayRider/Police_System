@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TableRow
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:textColor="@android:color/white"
+            android:id="@+id/crime_pincode_txt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="20dp" >
+
+            <requestFocus />
+        </EditText>
+
+        <ImageButton
+            android:scaleType="fitXY"
+            android:id="@+id/crime_pincode_btn"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:src="@drawable/search" />
+
+    </TableRow>
+    
+
+</LinearLayout>
